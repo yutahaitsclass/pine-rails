@@ -1,0 +1,22 @@
+<h2>新規登録</h2>
+<div class="signin-form">
+<%= form_for(@user, url: signin_path) do |p| %>
+<div class="signin-form_element">
+<div><%= p.label :email %></div>
+<div><%=p.text_field :email%></div>
+</div>
+<div class="signin-form_element">
+<div><%= p.label :password %></div>
+<div><%=p.password_field :password%></div>
+</div>
+<div class="signin-form_element">
+<div><%= p.label :password_confirmation %></div>
+<div><%=p.password_field :password_confirmation%></div>
+</div>
+<div class="signin-form_element">
+<%=p.submit "登録"%>
+</div>
+
+
+<% end %>
+</div>

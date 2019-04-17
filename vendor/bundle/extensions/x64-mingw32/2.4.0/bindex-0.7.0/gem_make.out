@@ -1,0 +1,16 @@
+current directory: C:/Users/yutaw/Desktop/board/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+C:/Ruby24-x64/bin/ruby.exe -r ./siteconf20190417-15708-6mejwk.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/yutaw/Desktop/board/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: C:/Users/yutaw/Desktop/board/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+generating cruby-x64-mingw32.def
+compiling cruby.c
+linking shared-object skiptrace/cruby.so
+
+current directory: C:/Users/yutaw/Desktop/board/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190417-15708-gbvix9/skiptrace

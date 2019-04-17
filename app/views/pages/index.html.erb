@@ -1,0 +1,17 @@
+<h2>掲示板</h2>
+<div class="mypage-link">
+<%=link_to "投稿してみる", new_post_path%>
+</div>
+<div class="posts-wrapper">
+<div class="posts-content">
+<% @posts.first(10).each do |p| %>
+<div class="post-content">
+<div class="post-content_element">
+
+<%=p.created_at.strftime('%Y年%m月%d日')%></div>
+<div class="post-content_element"><%= p.title %></div>
+<div class="post-content_element"><%= p.content%></div>
+</div>
+<% end %>
+</div>
+</div>
